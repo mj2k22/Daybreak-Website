@@ -11,8 +11,16 @@ html, body {
 body {
     font-family: 'Inter', sans-serif;
     background-color: #40393E;
-    min-height: 90vh;
+    min-height: 100vh;
 } 
+
+button {
+    cursor: pointer;
+}
+
+img {
+    pointer-events: none;
+}
 
 h1 {
     font-size: 71px;
@@ -143,6 +151,8 @@ header a:hover{
     align-items: center;
     position: relative;
     justify-content: space-around;
+    /* background-color: #262225;
+    margin: 0; */
 }
 
 
@@ -188,6 +198,8 @@ header a:hover{
     align-items: center;
     position: relative;
     justify-content: space-around;
+    /* background-color: #262225;
+    margin: 0; */
 }
 
 
@@ -233,6 +245,8 @@ header a:hover{
     align-items: center;
     position: relative;
     justify-content: space-around;
+    /* background-color: #262225;
+    margin: 0; */
 }
 
 
@@ -276,6 +290,7 @@ header a:hover{
     margin: 300px 0;
     display: flex;
     justify-content: space-evenly;
+
 }
 
 .testimonials-container p {
@@ -311,7 +326,7 @@ header a:hover{
 /* footer */
 
 .footer-container {
-
+    
 }
 
 .cta-container {
